@@ -4,12 +4,12 @@ import ContactPage from './contactPage';
 import Home from './home';
 import ProfilePage from './profilePage';
 import 'bootstrap/dist/css/bootstrap.css';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { HashRouter, Routes, Route} from 'react-router-dom';
 import { SearchProvider } from "./searchContext";
 
 export default function App() {
   return(
-    <BrowserRouter>
+    <HashRouter>
           <SearchProvider>
             <Routes>
                   <Route path = "/" element = {<Home />} />
@@ -19,7 +19,7 @@ export default function App() {
                   <Route path = "/contact" element = {<ContactPage />} />
               </Routes>
           </SearchProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
