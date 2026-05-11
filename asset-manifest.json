@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kiley-Cosgrove-Creations/static/css/main.3797315f.css",
-    "main.js": "/Kiley-Cosgrove-Creations/static/js/main.afe6dfe7.js",
+    "main.js": "/Kiley-Cosgrove-Creations/static/js/main.9a99c214.js",
     "static/media/Virginia2026.JPEG": "/Kiley-Cosgrove-Creations/static/media/Virginia2026.51a9503f341cd85f79eb.JPEG",
     "static/media/artProjectOne.jpg": "/Kiley-Cosgrove-Creations/static/media/artProjectOne.7e3297df758c2a2da994.jpg",
     "static/media/SeidenbergShelf.jpg": "/Kiley-Cosgrove-Creations/static/media/SeidenbergShelf.9cec20e265de3f6b2bae.jpg",
@@ -72,10 +72,10 @@
     "static/media/linkedInIcon.webp": "/Kiley-Cosgrove-Creations/static/media/linkedInIcon.4c60124886e81a0d124d.webp",
     "index.html": "/Kiley-Cosgrove-Creations/index.html",
     "main.3797315f.css.map": "/Kiley-Cosgrove-Creations/static/css/main.3797315f.css.map",
-    "main.afe6dfe7.js.map": "/Kiley-Cosgrove-Creations/static/js/main.afe6dfe7.js.map"
+    "main.9a99c214.js.map": "/Kiley-Cosgrove-Creations/static/js/main.9a99c214.js.map"
   },
   "entrypoints": [
     "static/css/main.3797315f.css",
-    "static/js/main.afe6dfe7.js"
+    "static/js/main.9a99c214.js"
   ]
 }
