@@ -9,10 +9,22 @@ export const searchIndex = [
     section: "art",
   },
   {
-    title: "Project 2",
-    tags: " art",
+    title: "The Cycles of Grief",
+    tags: "digital art design graphic double exposure grief death father dad grandfather watercolor concentration photos",
     route: "/art",
-    section: "art standin",
+    section: "art",
+  },
+  {
+    title: "Faculty Auras",
+    tags: "concentration white charcoal chalk pastel large portrait auras teachers faculty watercolor",
+    route: "/art",
+    section: "/art",
+  },
+  {
+    title: " Highschool Self-Portrait",
+    tags: "charcoal portrait books foreshortening",
+    route: "/art",
+    section: "art",
   },
   {
     title: "Riddle Me This",

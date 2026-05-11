@@ -1,12 +1,10 @@
 import { Link } from 'react-router-dom';
 import Button from "./button.js"
 import './styles.css'
-import {useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useSearch } from './searchContext';
 import { searchIndex } from './searchIndex.js';
 import { useNavigate } from 'react-router-dom';
-
-console.log('searchIndex:', searchIndex);
 
 export default function Header() {
     const [isSticky, setIsSticky] = useState(false);
@@ -42,22 +40,21 @@ export default function Header() {
     return (
         <>
             <div className={"header" + (isSticky ? " scrolled" : "")}>
-                <h1> Kiley Cosgrove Creation </h1>
-                <div className="header-right">
-                    <nav className="desktop-nav">
-                        <Link to="/"><Button>Home</Button></Link>
-                        <Link to="/profile"><Button>Profile</Button></Link>
-                        <Link to="/art"><Button>Art Portfolio</Button></Link>
-                        <Link to="/code"><Button>Coding Portfolio</Button></Link>
-                        <Link to="/contact"><Button>Contact</Button></Link>
-                        <div className="hamburger-btn" onClick={toggleSidebar}>
-                            ☰
-                        </div>
-                        <input className="search-bar" type="text" placeholder="Search..." 
-                               value={searchTerm} onChange={e => setSearchTerm(e.target.value)} 
-                               onKeyDown={e => { if (e.key === 'Enter') handleSearch(); }} />
-                    </nav>
-                    
+                <h1>Kiley Cosgrove Creation</h1>
+
+                {/* Hamburger + Search grouped together */}
+                <div className="header-controls">
+                    <div className="hamburger-btn" onClick={toggleSidebar}>
+                        ☰
+                    </div>
+                    <input
+                        className="search-bar"
+                        type="text"
+                        placeholder="Search..."
+                        value={searchTerm}
+                        onChange={e => setSearchTerm(e.target.value)}
+                        onKeyDown={e => { if (e.key === 'Enter') handleSearch(); }}
+                    />
                 </div>
             </div>
 
